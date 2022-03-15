@@ -6,22 +6,29 @@
 
 
 ### 2 - Data
-<a href="https://www.kaggle.com/jealousleopard/goodreadsbooks">Dataset</a> contains 12 columns and 11123 rows.
+<a href="https://www.kaggle.com/blastchar/telco-customer-churn">Dataset</a> contains 21 columns and 7043 rows.
 
 Columns Description:
-* __bookID__ = contains the unique ID for each book/series
-* __title__ = contains the titles of the books
-* __authors__ = contains the author of the particular book
-* __average_rating__ = the average rating of the books, as decided by the users
-* __ISBN ISBN(10)__ = number, tells the information about a book - such as edition and publisher
-* __ISBN 13__ = the new format for ISBN, implemented in 2007. 13 digits
-* __language_code__ = tells the language for the books
-* __Num_pages__ = contains the number of pages for the book
-* __Ratings_count__ = contains the number of ratings given for the book
-* __text_reviews_count__ = has the count of reviews left by users
-* __publication_date__ = date of publication
-* __publisher__ = name of the publisher
-
+* __CustomerID__ = A unique ID that identifies each customer.
+* __Gender__ = The customer’s gender: Male, Female
+* __Senior Citizen__ = Indicates if the customer is 65 or older: Yes, No
+* __Partner__ = Indicates if the customer is married: Yes, No
+* __Dependents__ = Indicates if the customer lives with any dependents: Yes, No. Dependents could be children, parents, grandparents, etc.
+* __Tenure__ = Indicates the total amount of months that the customer has been with the company.
+* __Phone Service__ = Indicates if the customer subscribes to home phone service with the company: Yes, No
+* __Multiple Lines__ = Indicates if the customer subscribes to multiple telephone lines with the company: Yes, No
+* __Internet Service__ = Indicates if the customer subscribes to Internet service with the company: No, DSL, Fiber Optic, Cable.
+* __Online Security__ = Indicates if the customer subscribes to an additional online security service provided by the company: Yes, No
+* __Device Protection__ = Indicates if the customer subscribes to an additional device protection plan for their Internet equipment provided by the company: Yes, No
+* __Tech Support__ = Indicates if the customer subscribes to an additional technical support plan from the company with reduced wait times: Yes, No
+* __Streaming TV__ = Indicates if the customer uses their Internet service to stream television programing from a third party provider: Yes, No. The company does not charge an additional fee for this service.
+* __Streaming Movies__ = Indicates if the customer uses their Internet service to stream movies from a third party provider: Yes, No. The company does not charge an additional fee for this service.
+* __Contract__ = Indicates the customer’s current contract type: Month-to-Month, One Year, Two Year.
+* __Paperless Billing__ = Indicates if the customer has chosen paperless billing: Yes, No
+* __Payment Method__ = Indicates how the customer pays their bill: Bank Withdrawal, Credit Card, Mailed Check
+* __Monthly Charges__ = Indicates the customer’s current total monthly charge for all their services from the company.
+* __Total Charges__ = Indicates the customer’s total charges, calculated to the end of the quarter specified above.
+* __Churn__ = Yes = the customer left the company this quarter. No = the customer remained with the company. Directly related to Churn Value.
 
 ### 3 - Exploratory Data Analysis
 
