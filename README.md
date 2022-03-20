@@ -30,12 +30,21 @@ Columns Description:
 * __Total Charges__ = Indicates the customer’s total charges, calculated to the end of the quarter specified above.
 * __Churn__ = Yes = the customer left the company this quarter. No = the customer remained with the company. Directly related to Churn Value.
 
+
+# WORK IN PROGRESS
+
+
+
+
+
+
+
 ### 3 - Exploratory Data Analysis
 
 
 
 <p align="center">
-  <img width="800" height="500" src="https://github.com/HalukSumen/Book_Recommender/blob/main/images/languagedistribution.png">
+  <img width="8" height="5" src="">
 </p>
 
 
