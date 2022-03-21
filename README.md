@@ -112,7 +112,7 @@ Let's see each of for understand better.
 <a href="https://www.researchgate.net/figure/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix_fig3_336402347"><img src="https://www.researchgate.net/publication/336402347/figure/fig3/AS:812472659349505@1570719985505/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix.ppm" alt="Calculation of Precision, Recall and Accuracy in the confusion matrix."/></a>
 
 
-Let's examine general structure of modelling part.
+Let's examine general structure of modelling part our example is Light-GBM.
 ```
 models =[]
 accuracy= []
@@ -121,6 +121,44 @@ roc_auc= []
 precision = []
 f1 = []
 ```
+
+```
+df1 = df.drop(['gender','PhoneService'],axis=1).copy()
+le = LabelEncoder()
+df1['Churn']=le.fit_transform(df1['Churn'])
+```
+
+```
+df1['tenure']= df1['tenure'].astype(float)
+df1= pd.get_dummies(df1)
+X= df1.drop('Churn', axis=1)
+y= df1['Churn']
+```
+
+```
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+```
+
+```
+lgbmc = LGBMClassifier()
+lgbmc.fit(X_train, y_train)
+y_pred = lgbmc.predict(X_test)
+```
+
+```
+accuracy.append(round(accuracy_score(y_test, y_pred),4))
+recall.append(round(recall_score(y_test, y_pred),4))
+roc_auc.append(round(roc_auc_score(y_test, y_pred),4))
+precision.append(round(precision_score(y_test, y_pred),4))
+f1.append(round(f1_score(y_test, y_pred),4))
+```
+
+```
+models = ['LightGBM']
+result_df5 = pd.DataFrame({'Accuracy':accuracy,'Recall':recall, 'Roc_Auc':roc_auc, 'Precision':precision, 'F1 Score':f1}, index=models)
+result_df5
+```
+
 
 Let's look output of our models.
 
