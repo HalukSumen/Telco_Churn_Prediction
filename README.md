@@ -38,21 +38,31 @@ Firstly, I would like to see distribution of the data, because we may need to us
   <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/ChurnAndNot.png">
 </p>
 
-* Customer did churn: 26.54  %  --> (1869 customer)
-* Customer did not churn: 73.46  %  --> (5174 customer)
+* Customer did churn: __26.54__  %  --> (1869 customer)
+* Customer did not churn: __73.46__  %  --> (5174 customer)
 
 Secondly I visualized all columns according to numerical and categorical types. 
 As you can see in the images below, there are four columns as numerical and rest of the columns are categorical.
 
+In these plots we are observing, 
+New clients most likely to churn
+Clients with higher monthly charges more likely to churn
+Clients with less total charges more likely to churn
+Senior citizen less likely to churn
+Tenure and MontlyCharges are important features for churn
 <p align="center">
   <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/tenure.png">
 </p>
+
+
 <p align="center">
   <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/MonthlyCharges.png">
 </p>
+
 <p align="center">
   <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/TotalCharges.png">
 </p>
+
 <p align="center">
   <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/SeniorCitizen.png">
 </p>
