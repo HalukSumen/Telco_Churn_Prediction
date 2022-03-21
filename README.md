@@ -35,7 +35,7 @@ Columns Description:
 Firstly, I would like to see distribution of the data, because we may need to use Undersampling or Oversampling. As in the image below, dataset is fairly acceptable.
 
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/ChurnAndNot.png">
+  <img width="892" height="352" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/ChurnAndNot.png">
 </p>
 
 * Customer did churn: __26.54__  %  --> (1869 customer)
@@ -51,46 +51,46 @@ Clients with less total charges more likely to churn
 Senior citizen less likely to churn
 Tenure and MontlyCharges are important features for churn
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/tenure.png">
+  <img width="622" height="333" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/tenure.png">
 </p>
 
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/MonthlyCharges.png">
+  <img width="622" height="333" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/MonthlyCharges.png">
 </p>
 
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/TotalCharges.png">
+  <img width="622" height="333" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/TotalCharges.png">
 </p>
 
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/SeniorCitizen.png">
+  <img width="622" height="333" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/SeniorCitizen.png">
 </p>
 
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/1.png">
+  <img width="621" height="568" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/1.png">
 </p>
 
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/2.png">
+  <img width="621" height="568" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/2.png">
 </p>
 
 
 After these steps I want to see, Pearson correlation and Spearmen correlation. I used both because, Pearson evaluates linear relationship of columns, and Spearmen evaluates Monotonic relationship of columns.
 
-__Information! :__  In a monotonic relationship, variables are likely to move in same direction but not necessarily at stable rate, but in Linear relationship, variables are move in same direction and stable rate.
+__Important! :__  In a monotonic relationship, variables are likely to move in same direction but not necessarily at stable rate, but in Linear relationship, variables are move in same direction and stable rate.
 
 __Pearson Correlation__
 <p align="center">
-  <img width="600" height="500" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Pearson.png">
+  <img width="622" height="568" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Pearson.png">
 </p>
 
 __Spearman Correlation__
 <p align="center">
-  <img width="600" height="500" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Spearman.png">
+  <img width="793" height="579" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Spearman.png">
 </p>
 
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Feature%20Importance.png">
+  <img width="793" height="579" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Feature%20Importance.png">
 </p>
 
 ### 4 - Modelling 
