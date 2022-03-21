@@ -37,11 +37,25 @@ Firstly, I would like to see distribution of the data, because we may need to us
 <p align="center">
   <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/ChurnAndNot.png">
 </p>
-```
-Percentage of customer did churn:", 26.54  %  --> (1869 customer)
-Percentage of customer did not churn:", 73.46  %  --> (5174 customer)
-```
 
+* Customer did churn: 26.54  %  --> (1869 customer)
+* Customer did not churn: 73.46  %  --> (5174 customer)
+
+Secondly I visualized all columns according to numerical and categorical types. 
+As you can see in the images below, there are four columns as numerical and rest of the columns are categorical.
+
+<p align="center">
+  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/tenure.png">
+</p>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/MonthlyCharges.png">
+</p>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/TotalCharges.png">
+</p>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/SeniorCitizen.png">
+</p>
 ### 4 - Modelling 
 
 ### 5 - Result & Future Work
