@@ -155,7 +155,12 @@ f1.append(round(f1_score(y_test, y_pred),4))
 
 ```
 models = ['LightGBM']
-result_df5 = pd.DataFrame({'Accuracy':accuracy,'Recall':recall, 'Roc_Auc':roc_auc, 'Precision':precision, 'F1 Score':f1}, index=models)
+result_df5 = pd.DataFrame({'Accuracy':accuracy,
+                           'Recall':recall, 
+                           'Roc_Auc':roc_auc, 
+                           'Precision':precision, 
+                           'F1 Score':f1}, 
+                           index=models)
 result_df5
 ```
 
