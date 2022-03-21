@@ -81,7 +81,7 @@ __Important! :__  In a monotonic relationship, variables are likely to move in s
 
 __Pearson Correlation__
 <p align="center">
-  <img width="622" height="568" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Pearson.png">
+  <img width="793" height="579" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Pearson.png">
 </p>
 
 __Spearman Correlation__
@@ -90,7 +90,7 @@ __Spearman Correlation__
 </p>
 
 <p align="center">
-  <img width="793" height="579" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Feature%20Importance.png">
+  <img width="794" height="699" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Feature%20Importance.png">
 </p>
 
 ### 4 - Modelling 
