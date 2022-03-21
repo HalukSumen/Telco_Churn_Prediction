@@ -66,17 +66,33 @@ Tenure and MontlyCharges are important features for churn
   <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/SeniorCitizen.png">
 </p>
 
+<p align="center">
+  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/1.png">
+</p>
+
+<p align="center">
+  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/2.png">
+</p>
+
+
 After these steps I want to see, Pearson correlation and Spearmen correlation. I used both because, Pearson evaluates linear relationship of columns, and Spearmen evaluates Monotonic relationship of columns.
 
 __Information! :__  In a monotonic relationship, variables are likely to move in same direction but not necessarily at stable rate, but in Linear relationship, variables are move in same direction and stable rate.
 
+__Pearson Correlation__
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Pearson.png">
+  <img width="600" height="500" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Pearson.png">
+</p>
+
+__Spearman Correlation__
+<p align="center">
+  <img width="600" height="500" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Spearman.png">
 </p>
 
 <p align="center">
-  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Spearman.png">
+  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Feature%20Importance.png">
 </p>
+
 ### 4 - Modelling 
 
 ### 5 - Result & Future Work
