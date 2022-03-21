@@ -30,24 +30,17 @@ Columns Description:
 * __Total Charges__ = Indicates the customer’s total charges, calculated to the end of the quarter specified above.
 * __Churn__ = Yes = the customer left the company this quarter. No = the customer remained with the company. Directly related to Churn Value.
 
-
-# WORK IN PROGRESS
-
-
-
-
-
-
-
 ### 3 - Exploratory Data Analysis
 
-
+Firstly, I would like to see distribution of the data, because we may need to use Undersampling or Oversampling. As in the image below, dataset is fairly acceptable.
 
 <p align="center">
-  <img width="8" height="5" src="">
+  <img width="700" height="400" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/ChurnAndNot.png">
 </p>
-
-
+```
+Percentage of customer did churn:", 26.54  %  --> (1869 customer)
+Percentage of customer did not churn:", 73.46  %  --> (5174 customer)
+```
 
 ### 4 - Modelling 
 
