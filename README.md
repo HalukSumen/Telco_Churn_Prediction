@@ -66,6 +66,7 @@ Tenure and MontlyCharges are important features for churn
   <img width="622" height="333" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/SeniorCitizen.png">
 </p>
 
+In those images we are observing, gender is not important for churn.
 <p align="center">
   <img width="621" height="568" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/1.png">
 </p>
@@ -89,10 +90,52 @@ __Spearman Correlation__
   <img width="793" height="579" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Spearman.png">
 </p>
 
+
+Lastly, we are seeing Feature importance according to churn, result is not suprising. Top 3 important features are 'Tenure', 'Monthly Contract', and 'Total Charges'.
 <p align="center">
   <img width="794" height="699" src="https://github.com/HalukSumen/Telco_Churn_Prediction/blob/main/images/Feature%20Importance.png">
 </p>
 
 ### 4 - Modelling 
 
+In this part we are choosing which algorithms we will use and compare algorithms according to classification report. In this report Accuracy, Recall, Precision and F1 Score exist. For us Accuracy most important feature.
+Let's see each of for understand better.
+
+* __Accuracy:__ A Measure of a how good of the model.
+
+* __Recall:__ Fraction of relevant instances that were retrieved.
+
+* __Precision:__ Fraction of relevant instances among the retrieved instances.
+
+* __F1:__ A measure of a test's accuracy.
+
+<a href="https://www.researchgate.net/figure/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix_fig3_336402347"><img src="https://www.researchgate.net/publication/336402347/figure/fig3/AS:812472659349505@1570719985505/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix.ppm" alt="Calculation of Precision, Recall and Accuracy in the confusion matrix."/></a>
+
+Let's look our models one by one and output of each of them.
+
+* __CatBoost__ 
+
+* __K-Neighbors__ 
+
+* __XGBoost__ 
+
+* __AdaBoost__ 
+
+* __LightGBM__ 
+
+* __Logistic Regression__ 
+
+* __Gradient Boosting__ 
+
+* __Random Forest__ 
+
+* __D-Tree Classifier__ 
+
+
+
+
+
+
+
 ### 5 - Result & Future Work
+
