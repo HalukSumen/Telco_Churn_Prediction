@@ -111,7 +111,18 @@ Let's see each of for understand better.
 
 <a href="https://www.researchgate.net/figure/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix_fig3_336402347"><img src="https://www.researchgate.net/publication/336402347/figure/fig3/AS:812472659349505@1570719985505/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix.ppm" alt="Calculation of Precision, Recall and Accuracy in the confusion matrix."/></a>
 
-Let's look our models one by one and output of each of them.
+
+Let's examine general structure of modelling part.
+```
+models =[]
+accuracy= []
+recall =[]
+roc_auc= []
+precision = []
+f1 = []
+```
+
+Let's look output of our models.
 
 * __CatBoost__ 
 
@@ -130,10 +141,6 @@ Let's look our models one by one and output of each of them.
 * __Random Forest__ 
 
 * __D-Tree Classifier__ 
-
-
-
-
 
 
 
