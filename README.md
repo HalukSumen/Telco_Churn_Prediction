@@ -114,6 +114,8 @@ Let's see each of for understand better.
 
 
 Let's examine general structure of modelling part our example is Light-GBM.
+
+First we are creating list for each items, because we want to keep them for comparing as a one list.
 ```
 models =[]
 accuracy= []
@@ -123,11 +125,15 @@ precision = []
 f1 = []
 ```
 
+In this part we are dropping gender and PhoneService and doing Label Encoding(encode target labels with value between 0 and n_classes-1) for Churn column.
+
 ```
 df1 = df.drop(['gender','PhoneService'],axis=1).copy()
 le = LabelEncoder()
 df1['Churn']=le.fit_transform(df1['Churn'])
 ```
+
+Then we are changing tenure data type int to float and for X we are dropping Churn column and for Y just giving Churn column.
 
 ```
 df1['tenure']= df1['tenure'].astype(float)
@@ -136,15 +142,21 @@ X= df1.drop('Churn', axis=1)
 y= df1['Churn']
 ```
 
+Now we are using train test split and deciding test size and random state. we can add more parameters such as shuffle.
+
 ```
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 ```
+
+Here, we are calling our function also prediction our X_test data part.
 
 ```
 lgbmc = LGBMClassifier()
 lgbmc.fit(X_train, y_train)
 y_pred = lgbmc.predict(X_test)
 ```
+
+After our classifier works we need to see result, we are rounding results and showing 4 numbers after point(.).
 
 ```
 accuracy.append(round(accuracy_score(y_test, y_pred),4))
@@ -153,6 +165,8 @@ roc_auc.append(round(roc_auc_score(y_test, y_pred),4))
 precision.append(round(precision_score(y_test, y_pred),4))
 f1.append(round(f1_score(y_test, y_pred),4))
 ```
+
+Finally, we are adding our results to the list then print on the screen.
 
 ```
 models = ['LightGBM']
@@ -230,9 +244,6 @@ Let's look output of our models.
 | 0.7307    | 0.5122    |  0.6622   |  0.5043   | 0.5082    |
 
 
-
-
-
-
 ### 5 - Result & Future Work
+
 Totally we used 9 different algorithms __CatBoost__ , __K-Neighbors__ , __XGBoost__ , __AdaBoost__ , __LightGBM__ , __Logistic Regression__ , __Gradient Boosting__ , __Random Forest__ , __D-Tree Classifier__ . Gradient Boosting algorithm gives the best accuracy with (__0.804500__) which is slightly better than CatBoost (__0.803600__) and AdaBoost (__0.803600__),also D-Tree Classifier gives the worst accuracy(__0.803600__). But my aim is Recall Score; because objective of this types of project is decreasing False Negatives(FN). In the end __Gradient Boosting__ (__0.541800__)recall score decent but with Oversampling or using scale_pos_weight in boosting algorithms can increase Recall Score and gives better prediction about customer.
