@@ -4,9 +4,10 @@
 
 ### 1 - Abstract
 
+In this project I made Exploratory Data Analysis, Data Visualisation and lastly Modelling. Dataset contains 7043 rows in csv file. Each example row represent a churned or not churned customoer with 21 different information(columns). Before modelling part I have to do Data Cleaning and I need to understand which features(columns) are more important for understand the customer behavior. Also I checked distribution of churned and not churned to make Undersampling or Oversampling but luckily dataset distribution is acceptable, but if a person will make Oversampling, accuracy it may be slightly higher. Later I made visualization of each columns to understand the dataset better and of course feature importance. In the modelling part, I used 9 different algorithms __CatBoost__ , __K-Neighbors__ , __XGBoost__ , __AdaBoost__ , __LightGBM__ , __Logistic Regression__ , __Gradient Boosting__ , __Random Forest__ , __D-Tree Classifier__ . In the end
 
 ### 2 - Data
-<a href="https://www.kaggle.com/blastchar/telco-customer-churn">Dataset</a> contains 21 columns and 7043 rows.
+<a href="https://www.kaggle.com/blastchar/telco-customer-churn">Dataset</a> contains 21 columns and 7043 rows. 
 
 Columns Description:
 * __CustomerID__ = A unique ID that identifies each customer.
