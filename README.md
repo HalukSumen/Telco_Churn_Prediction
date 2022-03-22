@@ -170,24 +170,68 @@ Let's look output of our models.
 
 * __CatBoost__ 
 
+| Accuracy  | Recall    |  Roc_Auc  | Precision |  F1 Score |
+| --------- | --------- | --------- | --------- | --------- |
+| 0.8036	  | 0.5035	  | 0.7095	  | 0.6897	  | 0.5821    |  
+
 * __K-Neighbors__ 
+
+| Accuracy  | Recall    |  Roc_Auc  | Precision |  F1 Score |
+| --------- | --------- | --------- | --------- | --------- |
+| 0.7747	  | 0.4634	  | 0.6771	  | 0.6129	  | 0.5278    |
+
 
 * __XGBoost__ 
 
+| Accuracy  | Recall    |  Roc_Auc  | Precision |  F1 Score |
+| --------- | --------- | --------- | --------- | --------- |
+| 0.7875	  | 0.4861	  | 0.693	    | 0.6443    | 	0.5541  |
+
+
 * __AdaBoost__ 
+
+| Accuracy  | Recall    |  Roc_Auc  | Precision |  F1 Score |
+| --------- | --------- | --------- | --------- | --------- |
+| 0.8036	  | 0.5244	  | 0.7161	  |  0.6795 	| 0.5919    |
+
 
 * __LightGBM__ 
 
+| Accuracy  | Recall    |  Roc_Auc  | Precision |  F1 Score |
+| --------- | --------- | --------- | --------- | --------- |
+| 0.7993	  | 0.5261	  | 0.7137	  | 0.6652	  | 0.5875    |
+
+
 * __Logistic Regression__ 
+
+| Accuracy  | Recall    |  Roc_Auc  | Precision |  F1 Score |
+| --------- | --------- | --------- | --------- | --------- |
+| 0.7998	  | 0.5331	  | 0.7162	  |  0.6638   | 	0.5913  |
+
 
 * __Gradient Boosting__ 
 
+| Accuracy  | Recall    |  Roc_Auc  | Precision |  F1 Score |
+| --------- | --------- | --------- | --------- | --------- |
+| 0.8045    | 0.5418    |  0.7222	  | 0.6746    | 	0.601   |
+
+
 * __Random Forest__ 
+
+| Accuracy  | Recall    |  Roc_Auc  | Precision |  F1 Score |
+| --------- | --------- | --------- | --------- | --------- |
+| 0.7875    | 0.4774    |  0.6903   |  0.6478   | 0.5496    |
+
 
 * __D-Tree Classifier__ 
 
-Accuracy	Recall	Roc_Auc	Precision	F1 Score
-D-Tree Classifier	0.7307	0.5122	0.6622	0.5043	0.5082
+| Accuracy  | Recall    |  Roc_Auc  | Precision |  F1 Score |
+| --------- | --------- | --------- | --------- | --------- |
+| 0.7307    | 0.5122    |  0.6622   |  0.5043   | 0.5082    |
+
+
+
+
 
 
 ### 5 - Result & Future Work
