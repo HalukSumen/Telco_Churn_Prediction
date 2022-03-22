@@ -1,4 +1,4 @@
-# Telco Customer Churn ----- REPORT WORK IN PROGRESS
+# Telco Customer Churn
 
 ## Exploratory Data Analysis + Data Visualization + Modelling 
 
